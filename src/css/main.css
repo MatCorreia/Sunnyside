@@ -206,19 +206,19 @@ header {
     height: 900px; }
     header h1 {
       font-size: 2rem; }
-    header .show {
+    header .navbar-collapse {
       position: absolute;
       width: 91%;
       top: 120px;
       background-color: white;
       text-align: center;
       padding: 15px 0; }
-      header .show a {
+      header .navbar-collapse a {
         color: #818498 !important; }
-      header .show button {
+      header .navbar-collapse button {
         background-color: #fad400;
         border: 1px solid #fad400; }
-        header .show button:hover {
+        header .navbar-collapse button:hover {
           background-color: transparent;
           color: black;
           border: 1px solid #fad400; }
