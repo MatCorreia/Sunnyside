@@ -1,0 +1,49 @@
+@import 'variables';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: $barlow;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $fraunces;
+    font-weight: 900;
+    line-height: 5rem;
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: $grayishBlue;
+}
+
+button {
+    font-family: $fraunces;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+@media (max-width: 768px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: 3rem;
+    }
+    
+}
